@@ -1,0 +1,35 @@
+.table{
+    margin-top: 24px;
+    &__content{
+        min-height: 650px;
+        border-radius: 16px;
+        background: rgba(241, 245, 255, 0.50);
+        &-text{
+            margin-top: 197px;
+            margin-right: 48px;
+            float: right;
+            &__title{
+                width: 283px;
+                color: #121722;
+                font-family: Roboto;
+                font-size: 34px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 38px;
+            }
+            &__descr{
+                margin-top: 20px;
+                width: 337px;
+                color: rgba(18, 23, 34, 0.70);
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 29px;
+            }
+        }
+        &-img{
+            margin:80px 0 0 48px ;
+        }
+    }
+}
